@@ -1,0 +1,44 @@
+.form1 {
+  width: 400px;
+  margin: 130px auto 0 auto;
+  padding: 30px 20px;
+  border-radius: 5%;
+  background-color: rgb(167, 166, 166);
+
+}
+
+.sup {
+  margin: 0 0 30px;
+}
+
+.log {
+  margin-left: 45%;
+}
+
+.myform {
+  width: 400px;
+  margin: 130px auto 0 auto;
+  background-color: rgb(167, 166, 166);
+  padding: 30px 20px;
+  border-radius: 5%;
+}
+
+.form-control:focus::placeholder {
+  opacity: 0;
+}
+
+
+@media screen and (max-width:440px){
+  .myform{
+    width: 90%;
+  }
+
+  .form1{
+    width: 90%;
+  }
+
+  .log {
+    margin-left: 35%;
+  }
+}
+
